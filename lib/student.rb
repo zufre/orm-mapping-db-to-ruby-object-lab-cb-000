@@ -98,6 +98,6 @@ class Student
       ORDER BY name LIMIT 1
     SQL
     DB[:conn].execute(sql)
-    end
+    
   end
 end
