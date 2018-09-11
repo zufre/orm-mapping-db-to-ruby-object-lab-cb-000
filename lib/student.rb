@@ -97,7 +97,7 @@ class Student
       WHERE grade IS 10
       ORDER BY name LIMIT 1
     SQL
-    DB[:conn].execute(sql)
+    DB[:conn].execute(sql).first
     
   end
 end
